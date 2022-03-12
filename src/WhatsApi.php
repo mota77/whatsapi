@@ -2,11 +2,11 @@
 
 /**
  * Class WhatsApi
- * @package kreate\WhatsApi
+ * @package kreate\whatsapi
  */
 
 
-abstract class WhatsApi{
+abstract class whatsapi{
 
         /** @var string $endpoint endpoint for sendtext or image, file etc */
         private $endpoint;
