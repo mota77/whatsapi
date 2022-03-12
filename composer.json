@@ -1,0 +1,27 @@
+{
+  "name": "kreate/whatsapi",
+  "description": "API Client to WhatsAPI",
+  "keywords": [
+    "Kreate",
+    "Whatsapp",
+    "Whatsapi"
+  ],
+  "homepage": "http://www.kreate.pt",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Mota",
+      "email": "ola@kreate.pt",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "kreate\\WhatsApi\\": "src"
+    }
+  }
+}
